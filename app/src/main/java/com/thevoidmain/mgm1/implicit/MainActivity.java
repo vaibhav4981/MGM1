@@ -10,11 +10,11 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.thevoidmain.mgm1.R;
+import com.thevoidmain.mgm1.camera.CameraAcitivity;
 import com.thevoidmain.mgm1.explicit.Explicit1Activity;
+import com.thevoidmain.mgm1.sms.SmsActivity;
 
 public class MainActivity extends AppCompatActivity {
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void explicit(View view){
-        startActivity(new Intent(this, Explicit1Activity.class));
+        startActivity(new Intent(this, SmsActivity.class));
     }
 
 }
